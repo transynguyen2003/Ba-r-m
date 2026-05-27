@@ -1,0 +1,28 @@
+# dependencies
+node_modules
+vendor
+
+# build
+dist
+build
+
+# env
+.env
+.env.local
+.env.production
+
+# laravel
+bootstrap/cache/*.php
+storage/*.key
+storage/app/public
+
+# logs
+*.log
+
+# ide
+.vscode
+.idea
+
+# system
+.DS_Store
+Thumbs.db
